@@ -12,8 +12,8 @@ class MakeReservation extends React.Component{
   }
 
   numberAssign(){
-    let num = num++
-    this.setState({number:num})
+    let num = 0
+    this.setState({number:num++})
   }
 
 
