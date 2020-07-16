@@ -22,10 +22,10 @@ class MakeReservation extends React.Component{
       <form>
         <h3>Make a Reservation</h3>
         <input placeholder='name' name="name" type="text" />
-        <input placeholder='date'/>
-        <input placeholder='time'>
+        <input placeholder='date' name='date' type='date' />
+        <input placeholder='time' name='time' type='number' />
       </form>
-    )
+    ) 
   }
 }
 
